@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Aktiv Grotesk", "Helvetica", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+
+
+.card {
+    width: 35%;
+    padding: 1.4rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    transition: all .3s;
+    border-radius: .3rem;
+    margin-bottom: 1rem;
+}
+
+
+header {
+}
+
+h1 {
+    font-size: 1.2rem;
+    margin-bottom: .4rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+p {
+    margin-bottom: 1rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.social {
+    display: flex;
+    justify-content: flex-start;
+}
+
+a {
+    text-decoration: none;
+    font-size: .8rem;
+    color: #506bff;
+    transition: all .3s;
+    padding-bottom: .4rem;
+    border-bottom: solid 2px rgba(0, 0, 0, 0);
+}
+
+a:hover {
+    color: black;
+}
+
+#text_colorfull {
+    margin-right: 1rem;
+    font-weight: 500;
+}
+
+#text_colorfull:hover {
+    color: #ea4c89;
+    border-bottom: solid 2px rgba(234, 76, 137, 0.2);
+}
+
+
+
+footer {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.textbox {
+    width: 60%;
+    margin: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .3s;
+}
+
+
+#impmail {
+    font-size: 1rem;
+}
+
+@media (orientation: portrait) {
+    * {
+        font-size: 32px;
+    }
+    
+    .card {
+        margin-top: 0;
+        width: 90%;
+    }
+    
+    footer {
+        width: 90%;
+    }
+    
+    .textbox {
+        width: 90%;
+        margin-top: 5vw;
+    }
+}
